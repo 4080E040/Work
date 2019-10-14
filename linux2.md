@@ -105,7 +105,7 @@ dev   initrd.img.old  libx32  opt         sbin  usr
 ```
 (1)在kali linux根目錄建立python資料夾
 (2)下載python課本範例程式https://www.flag.com.tw/bk/ex/f9751
-　　　wget https://www.flag.com.tw/bk/ex/f9751
+     wget https://www.flag.com.tw/bk/ex/f9751
 (3)解壓縮範例程式
 (4)執行python程式
 ```
@@ -125,6 +125,15 @@ print(3*2*(17-2.1))
 print("abc"+"def")
 word = "art"
 print(word.replace("r", "n"))
+-------------------------------
+答案是:
+root@kali:/python# gedit  test1.py
+root@kali:/python# python3 test1.py
+hello!
+89.4
+abcdef
+ant
+
 ```
 
 
@@ -136,6 +145,17 @@ c = a/b
 print(a, "/", b, "=", c) 
 add = str(a)+"/"+str(b)+"="+str(c)
 print(add)
+---------------------------------
+a= 2
+b= 7
+c = a/b
+print(a, "/", b, "=", c) 
+add = str(a)+"/"+str(b)+"="+str(c)
+print(add)
+
+答案是:2 / 7 = 0.2857142857142857
+2/7=0.2857142857142857
+
 ```
 
 
@@ -143,6 +163,13 @@ print(add)
 # 10-3
 input("Where do you live? ")
 print("I live in Boston. ")
+--------------------------------
+答案是:
+root@kali:/python# gedit  test3.py
+root@kali:/python# python3 test3.py
+Where do you live? 
+I live in Boston. 
+
 ```
 
 ```
@@ -151,6 +178,14 @@ user_place = input("Where do you live? ")
 text = user_place.capitalize()+ "!"
 print(text) 
 print("I hear it's nice there!") 
+-----------------------------------
+答案是:
+root@kali:/python# gedit  test4.py
+root@kali:/python# python3 test4.py
+Where do you live? 
+!
+I hear it's nice there!
+
 ```
 
 
@@ -160,6 +195,14 @@ num = int(input ("Enter a number to find the square of: "))
 user_input = input("Enter a integer to find the square of: ")
 num = int(user_input) 
 print(num*num)
+--------------------------------------------
+答案是:
+root@kali:/python# gedit  test5.py
+root@kali:/python# python3 test5.py
+Enter a number to find the square of: 3
+Enter a integer to find the square of: 4
+16
+
 ```
 
 
@@ -168,5 +211,12 @@ print(num*num)
 num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 print(num1, "*", num2, "=", num1*num2)
+---------------------------------------------
+答案是:
+root@kali:/python# gedit  test6.py
+root@kali:/python# python3 test6.py
+Enter a number: 5
+Enter another number: 2
+5.0 * 2.0 = 10.0
+
 ```
-# 完成obs錄影：我的python程式開發＠Linux
